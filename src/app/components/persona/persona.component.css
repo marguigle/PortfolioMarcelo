@@ -1,0 +1,14 @@
+.container-banner {
+  width: 100%;
+  color: #a0aeb1;
+  background-image: url(/assets/images/banner-g8b8f7944b_1920.jpg);
+}
+.miFoto {
+  height: 200px;
+  max-width: 200px;
+  margin: 30px 20px;
+  border-radius: 50%;
+}
+.deco {
+  list-style-type: none;
+}
