@@ -2,7 +2,7 @@
 <div class="container container-banner">
   <div class="row align-items-center shadow-lg p-3 mb-5 rounded">
     
-    <div class="col aligm-item-center">
+    <div class="col aligms-item-center">
       <img [src]="" />
     </div>
 -sombra-->
@@ -11,42 +11,30 @@
   <br />
   <h3>{{ personas.titulo1 }}</h3>
   <br />
-  <h3>Full Stack Developer Jr.</h3>
+  <h3>{{ personas.titulo2 }}</h3>
 </div>
 
 <div class="container container-datos">
   <div class="row justify-content-around">
     <div class="col-md-4">
       <ul Class="deco">
-        <li>Fecha de nacimiento: 13/7/63</li>
+        <li>{{ personas.fechaNacimiento }}</li>
         <br />
 
-        <li>Nacionalidad: Argentino</li>
+        <li>{{ personas.nacionalidad }}</li>
         <br />
 
-        <li>Telefno: 1133517780</li>
+        <li>Telefno: {{ personas.telefono }}</li>
         <br />
 
-        <li>E-MAIL: marguigle@yahoo.com.ar</li>
+        <li>E-MAIL: {{ personas.mail }}</li>
       </ul>
     </div>
 
     <div class="col-8">
       <h4>Acerca de mi</h4>
       <br />
-      <p>
-        " Soy medico y siempre estuve muy atraido en todo lo relacionado con la
-        tecnologia, ya se trate de herdware o software. Comence a explorar el
-        maravilloso mundo de la programacion en un principio de manera
-        autodidacta. Con el paso del tiempo lo que inicialmente consideraba un
-        hobby, fue ocupando cada vez mas de mi tiempo. Empece a cursar Argentina
-        Programa, lo que me abrio el espectro de tecnologias a aprender y me
-        incentivo a aprender mas. Me entusiasma pensar en dedicarme de lleno a
-        la progamacion ya que se transformo en una pasion. Tengo un gran
-        entrenamiento en habilidades blandas, que fui logrando a travez de mis
-        años de experiencia que logre con el trato de personas por mi otra
-        profesion, asi como tambien el trabajo en equipo."
-      </p>
+      <p>{{ personas.acercaDe }}</p>
     </div>
   </div>
 </div>
