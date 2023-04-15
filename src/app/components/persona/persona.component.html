@@ -1,41 +1,41 @@
-<!--banner--
 <div class="container container-banner">
   <div class="row align-items-center shadow-lg p-3 mb-5 rounded">
-    
     <div class="col aligms-item-center">
       <img [src]="" />
     </div>
--sombra-->
-<div>
-  <h1>{{ personas.nombre }}</h1>
-  <br />
-  <h3>{{ personas.titulo1 }}</h3>
-  <br />
-  <h3>{{ personas.titulo2 }}</h3>
-</div>
 
-<div class="container container-datos">
-  <div class="row justify-content-around">
-    <div class="col-md-4">
-      <ul Class="deco">
-        <li>{{ personas.fechaNacimiento }}</li>
-        <br />
-
-        <li>{{ personas.nacionalidad }}</li>
-        <br />
-
-        <li>Telefno: {{ personas.telefono }}</li>
-        <br />
-
-        <li>E-MAIL: {{ personas.mail }}</li>
-      </ul>
-    </div>
-
-    <div class="col-8">
-      <h4>Acerca de mi</h4>
+    <div>
+      <h1>{{ personas.nombre }}</h1>
       <br />
-      <p>{{ personas.acercaDe }}</p>
+      <h3>{{ personas.titulo1 }}</h3>
+      <br />
+      <h3>{{ personas.titulo2 }}</h3>
     </div>
+
+    <div class="container container-datos">
+      <div class="row justify-content-around">
+        <div class="col-md-4">
+          <ul Class="deco">
+            <li>Fecha de nacimiento: {{ personas.fechaNacimiento }}</li>
+            <br />
+
+            <li>Nacionalidad: {{ personas.nacionalidad }}</li>
+            <br />
+
+            <li>Telefno: {{ personas.telefono }}</li>
+            <br />
+
+            <li>E-MAIL: {{ personas.mail }}</li>
+          </ul>
+        </div>
+
+        <div class="col-8">
+          <h4>Acerca de mi</h4>
+          <br />
+          <p>{{ personas.acercaDe }}</p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
   </div>
 </div>
-<br /><br />

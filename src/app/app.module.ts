@@ -6,9 +6,15 @@ import { AppComponent } from './app.component';
 import { PersonaComponent } from './components/persona/persona.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ExperienciaLaboralComponent } from './components/experiencia-laboral/experiencia-laboral.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, PersonaComponent, ExperienciaLaboralComponent],
+  declarations: [
+    AppComponent,
+    PersonaComponent,
+    ExperienciaLaboralComponent,
+    HeaderComponent,
+  ],
 
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
