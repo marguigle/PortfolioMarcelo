@@ -1,7 +1,35 @@
 <p>experiencia-laboral works!</p>
-<ul>
-  <li>lugar</li>
-  <li>cargo</li>
-  <li>Fecha</li>
-  <li>logo</li>
+<!--<ul>
+  <li>{{ experiencias.lugar }}</li>
+  <li>{{ experiencias.cargo }}</li>
+  <li>{{ experiencias.fecha }}</li>
+  <li>{{ experiencias.logo }}</li>
 </ul>
+ -->
+<!---exp laboral titulo-->
+<div class="container shadow-lg p-3 mb-5 bg-body rounded">
+  <br />
+  <div class="container">
+    <div class="shadow-lg p-3 mb-5 bg-body rounded">
+      <h3>EXPERIENCIA LABORAL</h3>
+    </div>
+  </div>
+  <br /><br />
+  <!--fin titulo-->
+
+  <div>
+    <ul class="deco">
+      <li *ngFor="let expLaboral of data[0]">
+        <div>
+          <!-- <img [src]="expLaboral.logos" [ngClass]="'foto'" /> -->
+          <br /><br />
+          <p id="parrafosExpLab">
+            {{ experiencias.cargo }} {{ experiencias.lugar }}
+            {{ experiencias.fecha }}
+          </p>
+          <br />
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

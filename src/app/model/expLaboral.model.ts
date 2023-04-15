@@ -1,11 +1,11 @@
 export class ExpLaboral {
   id?: number;
-  lugar: String;
-  cargo: String;
-  fecha: String;
-  logo: String;
+  lugar: string;
+  cargo: string;
+  fecha: string;
+  logo: string;
 
-  constructor(lugar: String, cargo: String, fecha: String, logo: String) {
+  constructor(lugar: string, cargo: string, fecha: string, logo: string) {
     this.lugar = lugar;
     this.cargo = cargo;
     this.fecha = fecha;
