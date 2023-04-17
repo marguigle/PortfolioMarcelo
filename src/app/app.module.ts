@@ -9,7 +9,12 @@ import { ExperienciaLaboralComponent } from './components/experiencia-laboral/ex
 import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, PersonaComponent, HeaderComponent],
+  declarations: [
+    AppComponent,
+    PersonaComponent,
+    HeaderComponent,
+    ExperienciaLaboralComponent,
+  ],
 
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

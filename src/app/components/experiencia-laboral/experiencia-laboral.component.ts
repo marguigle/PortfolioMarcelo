@@ -9,13 +9,14 @@ import { ExperienciaService } from 'src/app/services/expLaboralService';
   providers: [ExperienciaService],
 })
 export class ExperienciaLaboralComponent implements OnInit {
-  experiencias: ExpLaboral = new ExpLaboral('', '', '', '');
+  experiencias: ExpLaboral[] = [];
 
   constructor(public experienciaService: ExperienciaService) {}
 
   ngOnInit(): void {
-    this.experienciaService.getExperiencia().subscribe((data: any) => {
-      this.experiencias = data[0];
+    this.experienciaService.getExperiencia().subscribe((data) => {
+      this.experiencias = data; // asignar el arreglo a experiencias
+      console.log(this.experiencias);
       console.log(data);
     });
   }

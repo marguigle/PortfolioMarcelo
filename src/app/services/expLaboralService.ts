@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-
+import { ExpLaboral } from '../model/expLaboral.model';
 @Injectable({
   providedIn: 'root',
 })
@@ -10,7 +10,7 @@ export class ExperienciaService {
 
   constructor(private http: HttpClient) {}
 
-  public getExperiencia(): Observable<any> {
-    return this.http.get<any>(this.URL + 'traer');
+  public getExperiencia(): Observable<ExpLaboral[]> {
+    return this.http.get<ExpLaboral[]>(this.URL + 'traer');
   }
 }
