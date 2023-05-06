@@ -9,6 +9,7 @@ import { ExperienciaLaboralComponent } from './components/experiencia-laboral/ex
 import { HeaderComponent } from './components/header/header.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { ActividadDocenteComponent } from './components/actividad-docente/actividad-docente.component';
+import { TrabajosPresentadosComponent } from './components/trabajos-presentados/trabajos-presentados.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ActividadDocenteComponent } from './components/actividad-docente/activi
     ExperienciaLaboralComponent,
     EstudiosComponent,
     ActividadDocenteComponent,
+    TrabajosPresentadosComponent,
   ],
 
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],

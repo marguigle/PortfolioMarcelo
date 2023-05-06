@@ -1,6 +1,6 @@
 <div class="container shadow-lg p-3 mb-5 bg-body rounded">
   <div class="container-estudios shadow-lg p-3 mb-5 bg-body rounded">
-    <h2>ESTUDIOS</h2>
+    <h2>TRABAJOS PRESENTADOS</h2>
   </div>
 
   <div class="container">
@@ -19,7 +19,7 @@
                 aria-expanded="fal"
                 aria-controls="collapseOne"
               >
-                ESTUDIOS CURSADOS
+                TRABAJOS PRESENTADOS
               </button>
             </h2>
             <div
@@ -30,11 +30,10 @@
             >
               <div class="accordion-body">
                 <ul ngClass="listaEstudios">
-                  <li *ngFor="let estudio of estudios">
+                  <li *ngFor="let trabajo of trabajosPresentados">
                     <p>
-                      {{ estudio.tipo }} {{ estudio.lugar }}
-                      {{ estudio.titulo }}
-                      {{ estudio.fecha }}
+                      {{ trabajo.lugar }}
+                      {{ trabajo.titulo }}
                     </p>
                     <br />
                   </li>
@@ -49,4 +48,3 @@
   <br />
 </div>
 <br /><br />
-<!--FIN ESTUDIOS-->
