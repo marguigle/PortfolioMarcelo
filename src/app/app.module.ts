@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ExperienciaLaboralComponent } from './components/experiencia-laboral/experiencia-laboral.component';
 import { HeaderComponent } from './components/header/header.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
+import { ActividadDocenteComponent } from './components/actividad-docente/actividad-docente.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { EstudiosComponent } from './components/estudios/estudios.component';
     HeaderComponent,
     ExperienciaLaboralComponent,
     EstudiosComponent,
+    ActividadDocenteComponent,
   ],
 
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],

@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ExpLaboral } from '../model/expLaboral.model';
+
 @Injectable({
   providedIn: 'root',
 })
