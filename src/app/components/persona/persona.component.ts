@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Persona } from 'src/app/model/persona.model';
 import { PersonaService } from 'src/app/services/persona.service';
+
 @Component({
   selector: 'app-persona',
   templateUrl: './persona.component.html',
@@ -8,6 +9,7 @@ import { PersonaService } from 'src/app/services/persona.service';
 })
 export class PersonaComponent implements OnInit {
   personas: Persona = new Persona('', '', '', '', '', '', '', '', '');
+
   constructor(public personaService: PersonaService) {}
 
   ngOnInit(): void {

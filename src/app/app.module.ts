@@ -7,6 +7,7 @@ import { PersonaComponent } from './components/persona/persona.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ExperienciaLaboralComponent } from './components/experiencia-laboral/experiencia-laboral.component';
 import { HeaderComponent } from './components/header/header.component';
+import { EstudiosComponent } from './components/estudios/estudios.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HeaderComponent } from './components/header/header.component';
     PersonaComponent,
     HeaderComponent,
     ExperienciaLaboralComponent,
+    EstudiosComponent,
   ],
 
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],

@@ -1,0 +1,7 @@
+.fotoExpLab {
+  max-width: 60px;
+}
+.fotoExpLab {
+  display: flex;
+  flex-direction: row;
+}

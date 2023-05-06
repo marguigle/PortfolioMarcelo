@@ -8,8 +8,8 @@
 
   <!---fin titulo-->
 
-  <div *ngFor="let exp of experiencias">
-    <img [src]="exp.logos" [ngClass]="'foto'" />
+  <div *ngFor="let exp of experiencias" class="container cont-exp">
+    <img [src]="exp.logos" [ngClass]="'fotoExpLab'" />
     <p id="parrafosExpLab">
       {{ exp.cargo }} {{ exp.lugar }}
       {{ exp.fecha }}
