@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { ActividadDocenteComponent } from './components/actividad-docente/actividad-docente.component';
 import { TrabajosPresentadosComponent } from './components/trabajos-presentados/trabajos-presentados.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TrabajosPresentadosComponent } from './components/trabajos-presentados/
     EstudiosComponent,
     ActividadDocenteComponent,
     TrabajosPresentadosComponent,
+    SkillsComponent,
   ],
 
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],

@@ -15,7 +15,7 @@ export class PersonaComponent implements OnInit {
   ngOnInit(): void {
     this.personaService.getPersona().subscribe((data) => {
       this.personas = data[0];
-      console.log(data);
+      console.log(data[0]);
     });
   }
 }

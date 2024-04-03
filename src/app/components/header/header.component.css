@@ -1,0 +1,9 @@
+#logoArgPro {
+  max-width: 150px;
+  border-radius: 5px;
+  margin-right: auto;
+}
+#navBar {
+  display: flex;
+  justify-content: flex-end;
+}
