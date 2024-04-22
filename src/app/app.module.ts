@@ -12,6 +12,7 @@ import { ActividadDocenteComponent } from './components/actividad-docente/activi
 import { TrabajosPresentadosComponent } from './components/trabajos-presentados/trabajos-presentados.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
+import { HardSkillsComponent } from './components/hard-skills/hard-skills.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ProyectsComponent } from './components/proyects/proyects.component';
     TrabajosPresentadosComponent,
     SkillsComponent,
     ProyectsComponent,
+    HardSkillsComponent,
   ],
 
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
