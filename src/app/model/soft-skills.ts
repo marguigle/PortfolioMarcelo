@@ -1,9 +1,9 @@
 export class SoftSkills {
   id?: String;
-  habilidad: String;
+  skill: String;
   porcentaje: String;
-  constructor(habilidad: String, porcentaje: String) {
-    this.habilidad = habilidad;
+  constructor(skill: String, porcentaje: String) {
+    this.skill = skill;
     this.porcentaje = porcentaje;
   }
 }
