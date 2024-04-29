@@ -11,6 +11,7 @@
       class="container shadow-lg p-3 mb-5 bg-body rounded"
       *ngFor="let skill of hSkills"
     >
+      <h5>{{ skill.tecnologia }}</h5>
       <div class="progress">
         <!-- style="width: 50%" -->
         <div
@@ -21,7 +22,7 @@
           aria-valuemin="0"
           aria-valuemax="60"
         >
-          {{ skill.tecnologia }}
+          <!-- {{ skill.tecnologia }} -->
         </div>
       </div>
     </div>
