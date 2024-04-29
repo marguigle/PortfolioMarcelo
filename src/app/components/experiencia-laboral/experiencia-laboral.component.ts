@@ -16,8 +16,6 @@ export class ExperienciaLaboralComponent implements OnInit {
   ngOnInit(): void {
     this.experienciaService.getExperiencia().subscribe((data) => {
       this.experiencias = data; // asignar el arreglo a experiencias
-      console.log(this.experiencias);
-      console.log(data);
     });
   }
 }

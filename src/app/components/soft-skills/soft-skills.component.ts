@@ -16,7 +16,6 @@ export class SoftSkillsComponent implements OnInit {
   ngOnInit(): void {
     this.softSkillsService.getSoftSkills().subscribe((data) => {
       this.sSkills = data;
-      console.log(data);
     });
   }
 }
