@@ -16,6 +16,7 @@ export class HardSkillsComponent implements OnInit {
   ngOnInit(): void {
     this.hardSkillsService.getHardSkills().subscribe((data) => {
       this.hSkills = data;
+      console.log(data[0]);
     });
   }
 }
