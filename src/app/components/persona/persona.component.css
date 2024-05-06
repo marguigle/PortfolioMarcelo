@@ -5,9 +5,12 @@
 
 .container-banner {
   width: 100%;
-  color: #a0aeb1;
+  height: auto;
+  color: #023743;
   background-image: url(src/assets/images/banner-g8b8f7944b_1920.jpg);
   border-radius: 8px;
+  background-size: cover; /* La imagen se ajustará para cubrir completamente el contenedor */
+  background-position: center;
 }
 .miFoto {
   max-height: 150px;
